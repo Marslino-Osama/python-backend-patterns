@@ -8,7 +8,7 @@ It is separate from the backend/system-design track. The backend track teaches p
 
 Learn DSA by recognizing patterns, writing clean Python implementations, testing edge cases, and documenting mistakes.
 
-This is not a solution dump. Every pattern should become a small workbook:
+This is not a solution dump. Every pattern is a small workbook:
 
 - Concept explanation
 - Recognition signs
@@ -23,45 +23,30 @@ This is not a solution dump. Every pattern should become a small workbook:
 | # | Pattern | Main Use Case | Status |
 |---|---------|---------------|--------|
 | 01 | Two Pointers | Sorted arrays, pairs, in-place movement | In Progress |
-| 02 | Sliding Window | Contiguous subarrays/substrings | Not Started |
-| 03 | Prefix Sum | Fast range queries and subarray sums | Not Started |
-| 04 | Binary Search | Search sorted data or monotonic answer spaces | Not Started |
-| 05 | DFS | Graph traversal and connected components | Not Started |
-| 06 | BFS | Shortest path in unweighted graphs | Not Started |
-| 07 | Tree DFS | Tree recursion, path problems, recursion state | Not Started |
-| 08 | Heap / Priority Queue | Top K, scheduling, shortest available item | Not Started |
-| 09 | Monotonic Stack | Next greater/smaller, ranges, histogram problems | Not Started |
-| 10 | Union Find | Connectivity, components, cycle detection | Not Started |
-| 11 | Topological Sort | Directed acyclic graph dependency ordering | Not Started |
-| 12 | Dijkstra | Shortest path in weighted graphs | Not Started |
-| 13 | Backtracking | Combinations, permutations, constraint search | Not Started |
-| 14 | 1D DP | Linear recurrence and state transition | Not Started |
-| 15 | 2D DP | Grid, string, and two-variable state tables | Not Started |
-
-## Folder Convention
-
-Each pattern folder should contain:
-
-```text
-README.md              # Full explanation of the pattern
-leetcode-plan.md       # Problems to solve in order
-notes.md               # Your mistakes, edge cases, and lessons
-solutions/
-├── template.py         # Reusable pattern templates
-├── examples.py         # Small learning examples
-└── solved_problem.py   # Your accepted LeetCode solutions
-```
+| 02 | Sliding Window | Contiguous subarrays/substrings | Ready |
+| 03 | Prefix Sum | Fast range queries and subarray sums | Ready |
+| 04 | Binary Search | Search sorted data or monotonic answer spaces | Ready |
+| 05 | DFS | Graph traversal and connected components | Ready |
+| 06 | BFS | Shortest path in unweighted graphs | Ready |
+| 07 | Tree DFS | Tree recursion, path problems, recursion state | Ready |
+| 08 | Heap / Priority Queue | Top K, scheduling, shortest available item | Ready |
+| 09 | Monotonic Stack | Next greater/smaller, ranges, histogram problems | Ready |
+| 10 | Union Find | Connectivity, components, cycle detection | Ready |
+| 11 | Topological Sort | Directed acyclic graph dependency ordering | Ready |
+| 12 | Dijkstra | Shortest path in weighted graphs | Ready |
+| 13 | Backtracking | Combinations, permutations, constraint search | Ready |
+| 14 | 1D DP | Linear recurrence and state transition | Ready |
+| 15 | 2D DP | Grid, string, and two-variable state tables | Ready |
 
 ## Study Flow
 
-1. Read the pattern README.
-2. Understand the brute-force approach.
-3. Understand what repeated work the pattern removes.
+1. Read `LEETCODE_WORKFLOW.md`.
+2. Open one pattern folder.
+3. Read `learning-guide.md`.
 4. Write the template from memory.
-5. Solve easy problems first.
-6. Solve medium problems.
-7. Document every mistake in `notes.md`.
-8. Re-solve important problems after a few days.
+5. Solve LeetCode problems from `leetcode-plan.md`.
+6. Save accepted solutions under `solutions/`.
+7. Update `notes.md` and `problem-index.md`.
 
 ## Completion Rule
 

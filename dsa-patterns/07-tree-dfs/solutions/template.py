@@ -1,8 +1,14 @@
 """
 Tree DFS template.
 
-Write the general reusable pattern here.
+Write this template from memory before solving problems.
 """
 
-def solve():
-    pass
+def tree_dfs(root):
+    if root is None:
+        return 0
+
+    left = tree_dfs(root.left)
+    right = tree_dfs(root.right)
+
+    return 1 + max(left, right)

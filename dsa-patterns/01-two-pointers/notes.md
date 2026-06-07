@@ -2,8 +2,6 @@
 
 Use this file as your personal mistake log.
 
-Do not keep it clean. This file should show what you misunderstood, what edge cases failed, and what finally made the pattern clear.
-
 ## Pattern Summary in My Words
 
 Write your own explanation here after solving the first 3 problems.
@@ -12,21 +10,13 @@ Write your own explanation here after solving the first 3 problems.
 
 | Problem | Mistake | Fix |
 |---------|---------|-----|
+| | | |
+| | | |
+| | | |
 
 ## Edge Cases
 
-Common edge cases to test:
-
-- Empty array/string
-- One element
-- Two elements
-- All duplicates
-- No valid pair
-- Already valid input
-- Input with spaces/punctuation for palindrome problems
-- Negative numbers
-- Very large numbers
-- Sorted vs unsorted input
+Write edge cases specific to this pattern here.
 
 ## Problems Solved
 
@@ -37,12 +27,12 @@ Common edge cases to test:
 
 ### After 3 Problems
 
-What do the pointers usually represent?
+What is becoming easier?
 
 ### After 5 Problems
 
-When is sorting required?
+What mistake am I still repeating?
 
 ### After 7 Problems
 
-What mistakes am I still repeating?
+Can I recognize this pattern without hints?

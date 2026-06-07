@@ -1,10 +1,14 @@
 """
-Small learning examples for Union Find.
+Small examples for Union Find.
+
+These are learning examples, not final LeetCode submissions.
 """
 
+
 def example():
-    pass
+    """Replace with a small custom example while studying."""
+    return None
 
 
 if __name__ == "__main__":
-    example()
+    print(example())

@@ -1,8 +1,18 @@
 """
 Heap / Priority Queue template.
 
-Write the general reusable pattern here.
+Write this template from memory before solving problems.
 """
 
-def solve():
-    pass
+import heapq
+
+def top_k_largest(nums, k):
+    heap = []
+
+    for num in nums:
+        heapq.heappush(heap, num)
+
+        if len(heap) > k:
+            heapq.heappop(heap)
+
+    return heap

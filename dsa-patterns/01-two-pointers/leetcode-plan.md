@@ -1,44 +1,46 @@
 # Two Pointers LeetCode Plan
 
-Solve these in order. Do not copy full solutions into this repo until you solve them yourself on LeetCode.
+Solve these problems after reading `learning-guide.md`.
+
+Do not paste final solutions before trying on LeetCode first.
 
 ## Easy
 
-| Problem | Pattern Type | Status | Notes |
-|---------|--------------|--------|-------|
-| Valid Palindrome | Opposite direction | Not Started | Compare both ends |
-| Two Sum II - Input Array Is Sorted | Opposite direction | Not Started | Sorted pair sum |
-| Remove Duplicates from Sorted Array | Same direction | Not Started | Fast/slow in-place |
-| Move Zeroes | Same direction | Not Started | Keep non-zero values |
-| Merge Sorted Array | Same direction from end | Not Started | Avoid overwriting values |
+| Problem | Status | Notes |
+|---------|--------|-------|
+| Valid Palindrome | Not Started | |
+| Two Sum II - Input Array Is Sorted | Not Started | |
+| Remove Duplicates from Sorted Array | Not Started | |
+| Move Zeroes | Not Started | |
+| Merge Sorted Array | Not Started | |
 
 ## Medium
 
-| Problem | Pattern Type | Status | Notes |
-|---------|--------------|--------|-------|
-| Container With Most Water | Opposite direction | Not Started | Move smaller height |
-| 3Sum | Sorting + two pointers | Not Started | Skip duplicates |
-| 3Sum Closest | Sorting + two pointers | Not Started | Track best distance |
-| Sort Colors | Three pointers | Not Started | Dutch national flag |
-| Partition Labels | Boundary pointers | Not Started | Greedy/pointer boundary |
+| Problem | Status | Notes |
+|---------|--------|-------|
+| Container With Most Water | Not Started | |
+| 3Sum | Not Started | |
+| 3Sum Closest | Not Started | |
+| Sort Colors | Not Started | |
+| Partition Labels | Not Started | |
 
 ## Hard / Optional
 
-| Problem | Pattern Type | Status | Notes |
-|---------|--------------|--------|-------|
-| Trapping Rain Water | Two pointers | Not Started | Track left/right max |
-| 4Sum | Sorting + two pointers | Not Started | Duplicate handling |
+| Problem | Status | Notes |
+|---------|--------|-------|
+| Trapping Rain Water | Not Started | |
+| 4Sum | Not Started | |
 
-## Problem Reflection Template
+## After Solving Template
 
-After each solved problem, add this to `notes.md`:
+Copy this into `notes.md` after each solved problem:
 
 ```text
 Problem:
 Difficulty:
-Pattern type:
-Why Two Pointers fits:
-Pointer meaning:
+Pattern:
+Why this pattern fits:
+State / pointer meaning:
 Invariant:
 Mistake:
 Edge case:
@@ -46,14 +48,3 @@ Time complexity:
 Space complexity:
 Re-solve later: yes/no
 ```
-
-## Completion Criteria
-
-Mark this pattern as complete when you can solve these without help:
-
-- Valid Palindrome
-- Two Sum II
-- Remove Duplicates from Sorted Array
-- Move Zeroes
-- Container With Most Water
-- 3Sum

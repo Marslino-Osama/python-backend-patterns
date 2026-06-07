@@ -1,53 +1,48 @@
 # LeetCode Workflow
 
-This file defines how to use the DSA track while solving problems on LeetCode.
-
-The goal is not to collect answers. The goal is to build pattern recognition, implementation speed, and the ability to explain your solution clearly.
+This workflow keeps the DSA track focused on learning, not collecting answers.
 
 ## The Loop
 
 For every problem:
 
 1. Read the problem carefully.
-2. Identify the pattern before writing code.
+2. Identify the likely pattern before writing code.
 3. Write the brute-force idea first.
 4. Improve it using the pattern.
-5. Write the solution on LeetCode.
+5. Solve on LeetCode.
 6. Test edge cases.
-7. After solving, copy your final accepted solution into this repo.
-8. Update `notes.md` with mistakes, edge cases, and lessons learned.
+7. After acceptance, copy your final solution into this repo.
+8. Update `notes.md`.
 9. Update `problem-index.md`.
 
 ## Before Solving
 
-Ask yourself:
+Ask:
 
 - What is the input shape?
 - Is the input sorted?
-- Do I need a contiguous range?
-- Do I need to search a graph/tree?
+- Is the range contiguous?
+- Is this a graph/tree?
 - Is there a repeated subproblem?
-- What would the brute-force solution be?
-- Why is brute force too slow?
-- What pattern removes the wasted work?
+- What is the brute-force solution?
+- What repeated work can be removed?
 
 ## During Solving
 
 Write the invariant in a comment before implementation.
 
-Examples:
+Example:
 
 ```python
-# Invariant: everything before `slow` is valid and kept.
-# Invariant: window [left, right] always satisfies the current constraint.
-# Invariant: heap contains the best candidates seen so far.
+# Invariant: everything before slow is valid.
+# Invariant: window [left, right] always satisfies the constraint.
+# Invariant: heap contains the best k candidates.
 ```
-
-This forces you to understand the algorithm instead of only writing code.
 
 ## After Solving
 
-Add a short reflection:
+Add this to the pattern notes:
 
 ```text
 Problem:
@@ -66,14 +61,6 @@ Use small commits:
 
 ```bash
 git add .
-git commit -m "Solve two pointers valid palindrome"
+git commit -m "Solve sliding window longest substring"
 git push
 ```
-
-## What Not To Do
-
-- Do not paste full solutions before trying.
-- Do not memorize code line by line.
-- Do not skip edge cases.
-- Do not move to harder problems until the template feels natural.
-- Do not count a problem as solved if you cannot explain why the pattern works.

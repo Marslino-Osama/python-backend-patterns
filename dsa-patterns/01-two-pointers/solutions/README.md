@@ -2,26 +2,23 @@
 
 Put your accepted LeetCode solutions here after solving them yourself.
 
-Recommended naming:
-
-```text
-valid_palindrome.py
-two_sum_ii.py
-remove_duplicates_from_sorted_array.py
-move_zeroes.py
-container_with_most_water.py
-three_sum.py
-```
-
-Each solution file should include:
+Each file should include this header:
 
 ```python
 """
 Problem:
 Link:
-Pattern:
+Pattern: Two Pointers
 Time complexity:
 Space complexity:
 Mistake:
 """
 ```
+
+Recommended workflow:
+
+1. Solve on LeetCode.
+2. Copy accepted solution here.
+3. Add short comments explaining the invariant.
+4. Update `../notes.md`.
+5. Update `../../problem-index.md`.
